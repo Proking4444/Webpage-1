@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        
+        <link rel="stylesheet" href="styleIndex.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Orbitron:wght@900&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <nav>
+
+            <ul>
+    
+                <li><a href="/index.html">Introduction</a></li>
+                <li><a href="/index2.html">Page 2</a></li>
+                <li><a href="/index3.html">Page 3</a></li>
+    
+            </ul>
+    
+        </nav>
+
+        <h1>
+ 
+            Hello World &#128516; <!--Emoji-->
+
+        </h1>
+
+        <p>
+
+            <ul> 
+
+                <li class="list1" id="tomato" title="id=tomato">Tomato</li>
+                <li class="list1" id="potato" title="id=potato">Potato</li>
+                <li class="list1" id="lettuce" title="id=lettuce">Lettuce</li>
+                <li class="list1" id="meat" title="id=meat">Meat</li>
+
+            </ul>
+
+        </p>
+
+        <canvas id="canvas">
+
+            <script>
+
+                const canvasElement = document.getElementById("canvas") <!--Link Canvas to JS-->
+
+                const commandText = canvasElement.getContext("2d")
+
+                commandText.moveTo(0, 0);
+
+                commandText.fillRect(0, 0, 300, 150);
+
+                commandText.stroke();
+
+            </script>
+
+        </canvas>
+
+    </body>
+
+</html>

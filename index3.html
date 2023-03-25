@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html> 
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="styleIndex.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Orbitron:wght@900&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <nav>
+
+            <ul>
+    
+                <li><a href="/index.html">Introduction</a></li>
+                <li><a href="/index2.html">Page 2</a></li>
+                <li><a href="/index3.html">Page 3</a></li>
+    
+            </ul>
+    
+        </nav>
+
+        <h1>
+
+            Part 3 &#128760;
+
+        </h1>
+
+        <p>
+
+            <ul> 
+
+                <li>Milk</li>
+                <li>Apple</li>
+                <li>Cake</li>
+                <li>Rice</li>
+
+            </ul>
+
+        </p>
+
+        <canvas class="pixelated" id="canvas3">
+
+            <script>
+
+                const canvasElement = document.getElementById("canvas3") <!--Link Canvas to JS-->
+
+                const ctx = canvasElement.getContext("2d")
+
+                ctx.fillStyle = 'black'
+
+                ctx.ellipse(50, 50, 10, 10, Math.PI / 1, 0, 2 * Math.PI )
+
+                ctx.fill();
+
+            </script>
+
+        </canvas>
+
+    </body>
+
+</html>

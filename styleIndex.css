@@ -1,0 +1,161 @@
+.pixelated {
+    image-rendering: pixelated;
+}
+
+body {
+
+    font-size: 18px;
+    font-family: 'Jost', sans-serif;
+    color: #000000;
+
+}
+
+nav ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 100%);
+
+}
+
+nav {
+
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    border-bottom: 3px solid hsl(0, 0%, 80%);
+    z-index: 3;
+}
+
+nav ul li {
+
+    float: left;
+}
+
+nav ul li a {
+
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    opacity: 0.6;
+
+}
+
+nav ul li a:hover {
+
+    border: 1px solid hsl(0, 0%, 49%);
+    background-color: hsl(0, 0%, 70%);
+    opacity: 1;
+}
+
+h1 {
+
+    padding-top: 50px;
+    font-size: 48px; 
+    font-family: 'Orbitron', sans-serif;
+    color: #0000ff;
+
+}
+
+#canvas {
+
+    width: 150px;
+    height: 150px;
+
+}
+
+#canvas ul {
+
+    padding: 10px;
+
+}
+
+#canvas2 {
+
+    width: 150px;
+    height: 150px;
+
+}
+
+#canvas2 ul {
+
+    padding: 10px;
+
+}
+
+#canvas3 {
+
+    width: 1000px;
+    height: 500px;
+
+}
+
+canvas3 ul {
+
+    padding: 10px
+
+}
+
+#tomato {
+
+    color: #000000;
+
+}
+
+#tomato:hover {
+
+    color: gray;
+
+}
+
+#potato {
+
+    color: #000000;
+    
+}
+    
+#potato:hover {
+    
+    color: gray;
+    
+}
+
+#lettuce {
+
+    color: #000000;
+        
+}
+        
+#lettuce:hover {
+        
+    color: gray;
+        
+}
+
+#meat {
+
+    color: #000000;
+        
+}
+        
+#meat:hover {
+        
+    color: gray;
+        
+}
+
+.list1 {
+
+    list-style-type: none;
+    border: 3px solid black;
+    margin: 2px;
+    padding: 5px;
+    width: 7%;
+
+}
