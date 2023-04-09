@@ -7,6 +7,7 @@
         <meta charset="UTF-8">
 
         <link rel="stylesheet" href="styleIndex.css">
+        <link rel="stylesheet" href="styleIndex2.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +21,7 @@
 
             <ul>
     
+                <li id="collage"><img src="collage.jpg" alt="Blue-Purple Gradient Circle Collage" width="160" height="40"></li>
                 <li><a href="/index.html">Introduction</a></li>
                 <li><a href="/index2.html">Page 2</a></li>
                 <li><a href="/index3.html">Page 3</a></li>
@@ -30,7 +32,7 @@
 
         <h1>
 
-            Part 2 &#128640;
+            Page 2 &#128640;
 
         </h1>
 
@@ -38,40 +40,14 @@
 
             <ul> 
 
-                <li>Spinach</li>
-                <li>Chicken</li>
-                <li>Cheese</li>
-                <li>Bread</li>
+                <li class="list1">Spinach</li>
+                <li class="list1">Chicken</li>
+                <li class="list1">Cheese</li>
+                <li class="list1">Bread</li>
 
             </ul>
 
         </p>
-
-        <canvas id="canvas2">
-
-            <script>
-
-                const canvasElement = document.getElementById("canvas2") <!--Link Canvas to JS-->
-
-                const commandText = canvasElement.getContext("2d")
-
-                commandText.fillStyle = 'black'
-
-                commandText.beginPath();
-
-                commandText.moveTo(150, 0);
-
-                commandText.lineTo(300, 150);
-
-                commandText.lineTo(0, 150);
-
-                commandText.closePath();
-            
-                commandText.fill();
-
-            </script>
-
-        </canvas>
 
     </body>
 

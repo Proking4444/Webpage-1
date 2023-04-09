@@ -7,6 +7,8 @@
         <meta charset="UTF-8">
 
         <link rel="stylesheet" href="styleIndex.css">
+        <link rel="stylesheet" href="styleIndex2.css">
+
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +22,7 @@
 
             <ul>
     
+                <li id="collage"><img src="collage.jpg" alt="Blue-Purple Gradient Circle Collage" width="160" height="40"></li>
                 <li><a href="/index.html">Introduction</a></li>
                 <li><a href="/index2.html">Page 2</a></li>
                 <li><a href="/index3.html">Page 3</a></li>
@@ -30,7 +33,7 @@
 
         <h1>
 
-            Part 3 &#128760;
+            Page 3 &#128760;
 
         </h1>
 
@@ -38,32 +41,14 @@
 
             <ul> 
 
-                <li>Milk</li>
-                <li>Apple</li>
-                <li>Cake</li>
-                <li>Rice</li>
+                <li class="list1">Milk</li>
+                <li class="list1">Apple</li>
+                <li class="list1">Cake</li>
+                <li class="list1">Rice</li>
 
             </ul>
 
         </p>
-
-        <canvas class="pixelated" id="canvas3">
-
-            <script>
-
-                const canvasElement = document.getElementById("canvas3") <!--Link Canvas to JS-->
-
-                const ctx = canvasElement.getContext("2d")
-
-                ctx.fillStyle = 'black'
-
-                ctx.ellipse(50, 50, 10, 10, Math.PI / 1, 0, 2 * Math.PI )
-
-                ctx.fill();
-
-            </script>
-
-        </canvas>
 
     </body>
 
