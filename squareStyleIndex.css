@@ -1,0 +1,232 @@
+#square1 {
+
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    left: 25px;
+    bottom: 225px;
+    border: 3px solid rgb(100, 165, 255);
+    background-color: rgb(100, 165, 255);
+
+}
+
+#square2 {
+
+    width: 130px;
+    height: 130px;
+    position: fixed;
+    left: 100px;
+    bottom: 150px;
+    border: 3px solid rgb(50, 150, 250);
+    background-color: rgb(50, 150, 250);
+    z-index: 1;
+
+}
+
+#square3 {
+
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    left: 200px;
+    bottom: 200px;
+    border: 3px solid rgb(25, 130, 255);
+    background-color: rgb(25, 130, 255);
+    z-index: 1;
+
+}
+
+#square4 {
+
+    width: 175px;
+    height: 175px;
+    position: fixed;
+    left: 275px;
+    bottom: 115px;
+    border: 3px solid rgb(10, 115, 255);
+    background-color: rgb(10, 115, 255);
+    z-index: 1;
+
+}
+
+#square5 {
+
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    left: 350px;
+    bottom: 240px;
+    border: 3px solid rgb(80, 110, 255);
+    background-color: rgb(80, 110, 255);
+    z-index: -1;
+
+}
+
+#square6 {
+
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    left: 275px;
+    bottom: 75px;
+    border: 3px solid rgb(10, 135, 255);
+    background-color: rgb(10, 135, 255);
+    z-index: -1;
+
+}
+
+#square7 {
+
+    width: 90px;
+    height: 90px;
+    position: fixed;
+    left: 300px;
+    bottom: 325px;
+    border: 3px solid rgb(65, 115, 255);
+    background-color: rgb(65, 115, 255);
+    z-index: -1;
+
+}
+
+#square8 {
+
+    width: 115px;
+    height: 115px;
+    position: fixed;
+    left: 475px;
+    bottom: 200px;
+    border: 3px solid rgb(100, 100, 255);
+    background-color: rgb(100, 100, 255);
+    z-index: -2;
+
+}
+
+#square9 {
+
+    width: 250px;
+    height: 250px;
+    position: fixed;
+    left: 560px;
+    bottom: 75px;
+    border: 3px solid rgb(125, 100, 255);
+    background-color: rgb(125, 100, 255);
+    z-index: -2;
+
+}
+
+#square10 {
+
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    left: 750px;
+    bottom: 225px;
+    border: 3px solid rgb(150, 100, 255);
+    background-color: rgb(150, 100, 255);
+    z-index: -2;
+
+}
+
+#square11 {
+
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    left: 750px;
+    bottom: 50px;
+    border: 3px solid rgb(135, 100, 255);
+    background-color: rgb(135, 100, 255);
+    z-index: -3;
+
+}
+
+#square12 {
+
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    left: 875px;
+    bottom: 250px;
+    border: 3px solid rgb(170, 100, 255);
+    background-color: rgb(170, 100, 255);
+    z-index: -3;
+
+}
+
+#square13 {
+
+    width: 125px;
+    height: 125px;
+    position: fixed;
+    left: 940px;
+    bottom: 210px;
+    border: 3px solid rgb(180, 110, 255);
+    background-color: rgb(180, 110, 255);
+    z-index: -3;
+
+}
+
+#square14 {
+
+    width: 175px;
+    height: 175px;
+    position: fixed;
+    left: 975px;
+    bottom: 75px;
+    border: 3px solid rgb(190, 110, 255);
+    background-color: rgb(190, 110, 255);
+    z-index: -3;
+
+}
+
+#square15 {
+
+    width: 125px;
+    height: 125px;
+    position: fixed;
+    left: 1125px;
+    bottom: 60px;
+    border: 3px solid rgb(215, 112, 255);
+    background-color: rgb(215, 110, 255);
+    z-index: -3;
+
+}
+
+#square16 {
+
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    left: 1200px;
+    bottom: 150px;
+    border: 3px solid rgb(230, 110, 255);
+    background-color: rgb(230, 110, 255);
+    z-index: -3;
+
+}
+
+#square17 {
+
+    width: 160px;
+    height: 160px;
+    position: fixed;
+    left: 1250px;
+    bottom: 150px;
+    border: 3px solid rgb(245, 110, 255);
+    background-color: rgb(245, 110, 255);
+    z-index: -3;
+
+}
+
+#square18 {
+
+    width: 110px;
+    height: 110px;
+    position: fixed;
+    left: 1325px;
+    bottom: 75px;
+    border: 3px solid rgb(255, 110, 235);
+    background-color: rgb(255, 110, 235);
+    z-index: -3;
+
+}
