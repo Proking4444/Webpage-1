@@ -76,16 +76,6 @@ h1 {
 
 }
 
-.list1 {
-
-    list-style-type: none;
-    border: 3px solid black;
-    margin: 2px;
-    padding: 5px;
-    width: 110%;
-
-}
-
 .decoration {
 
     border: 3px solid rgb(100, 165, 255);
@@ -317,5 +307,23 @@ h1 {
     border: 3px solid rgb(255, 110, 235);
     background-color: rgb(255, 110, 235);
     z-index: -3;
+
+}
+
+#grid1 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.list1 {
+
+    list-style-type: none;
+    border: 3px solid black;
+    padding: 5px;
+    margin: 2px;
+
 
 }
